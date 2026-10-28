@@ -10,7 +10,7 @@ By InfiArtt. MIT license.
 pip install infitalk
 ```
 
-Python 3.9 or newer. The only package it needs is `websockets`.
+Python 3.10 or newer. The only package it needs is `websockets`.
 
 ## A first bot
 

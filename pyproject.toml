@@ -9,7 +9,7 @@ description = "Make InfiTalk bots in Python: commands, dialogs that work with sc
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "InfiArtt" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = ["websockets>=13"]
 keywords = ["infitalk", "infiartt", "teamtalk", "bot", "accessibility", "screen reader"]
 classifiers = [
