@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infitalk"
+version = "0.1.0"
+description = "Make InfiTalk bots in Python: commands, dialogs that work with screen readers, buttons and audio"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "InfiArtt" }]
+requires-python = ">=3.9"
+dependencies = ["websockets>=13"]
+keywords = ["infitalk", "infiartt", "teamtalk", "bot", "accessibility", "screen reader"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "pytest-asyncio>=0.23"]
+
+[project.urls]
+Homepage = "https://infiartt.com/infitalk/developers"
+Source = "https://github.com/InfiArtt/infitalk-python"
+Changelog = "https://github.com/InfiArtt/infitalk-python/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+infitalk = ["py.typed"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
