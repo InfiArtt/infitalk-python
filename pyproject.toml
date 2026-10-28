@@ -27,7 +27,7 @@ classifiers = [
 test = ["pytest>=7", "pytest-asyncio>=0.23"]
 
 [project.urls]
-Homepage = "https://infiartt.com/infitalk/developers"
+Homepage = "https://infiartt.com/dev-center/infitalk-bots"
 Source = "https://github.com/InfiArtt/infitalk-python"
 Changelog = "https://github.com/InfiArtt/infitalk-python/blob/main/CHANGELOG.md"
 

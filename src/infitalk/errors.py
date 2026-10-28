@@ -2,7 +2,7 @@
 
 Every refused request raises :class:`InfiTalkError` (or a subclass) with the error code the server or the
 gateway sent, for example ``missing_permission`` or ``not_in_channel``. The codes are listed on
-https://infiartt.com/infitalk/developers#dev-limits.
+https://infiartt.com/dev-center/infitalk-bots#dev-limits.
 """
 from __future__ import annotations
 

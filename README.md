@@ -1,6 +1,6 @@
 # infitalk: InfiTalk bots in Python
 
-Make bots for [InfiTalk](https://infiartt.com/infitalk/developers), the accessible voice chat of InfiArtt:
+Make bots for [InfiTalk](https://infiartt.com/dev-center/infitalk-bots), the accessible voice chat of InfiArtt:
 commands in the bot menu, dialogs that work with NVDA and JAWS, buttons under messages, forms, suggestions
 while typing, and audio. One connection serves every server your bot was added to.
 
@@ -14,7 +14,8 @@ Python 3.10 or newer. The only package it needs is `websockets`.
 
 ## A first bot
 
-1. Make a bot on [My bots](https://infiartt.com/infitalk/bots/saya) and copy its token (`itw_...`).
+1. Make a bot in your [developer space](https://infiartt.com/dev-center/me) on the InfiArtt Developer Center
+   and copy its token (`itw_...`).
    The token is shown once; keep it secret.
 2. Add the bot to a server you manage ("Add to a server" on the same page).
 3. Run this with the token in `INFITALK_TOKEN`:
@@ -187,6 +188,6 @@ suggestions and audio.
 
 - Examples: `examples/echo_bot.py`, `examples/music_bot.py` (a class, a queue, a volume dialog),
   `examples/poll_bot.py` (buttons).
-- The protocol, limits and error codes: https://infiartt.com/infitalk/developers
+- The protocol, limits and error codes: https://infiartt.com/dev-center/infitalk-bots
 - Send your bot to the catalog from My bots when it is ready; the InfiArtt team reviews it (it must work
   well with NVDA).

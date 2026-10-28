@@ -10,7 +10,7 @@
 
     bot.run()
 
-Docs: https://infiartt.com/infitalk/developers
+Docs: https://infiartt.com/dev-center/infitalk-bots
 """
 from .audio import AudioPlayer, tone_pcm
 from .bot import EVENTS, Bot, command, suggest
